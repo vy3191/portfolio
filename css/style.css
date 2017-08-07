@@ -1,0 +1,155 @@
+html, body {
+  margin-top:70px;
+   padding: 0;
+ }
+ 
+
+ .background {
+   position: absolute;
+   display: block;
+   top: 0;
+   left: 0;
+   z-index: 0;
+   background: transparent;
+ }
+  canvas.background {
+    display:block;
+ 
+   }
+
+ hr {
+  margin-top: 100px;
+  margin-bottom: 50px;
+ }
+
+ 
+ #navbar li {
+  margin-right: 20px;
+ }
+#navbar li a:hover , #navbar li.active a {
+     text-decoration: none;
+     position: relative;
+     background: #f01251;
+     color: #fff;
+}
+
+/*------------------
+Navbar animations
+----------------*/
+
+ div.pic img {
+   width: 200px;
+   height: 200px;
+ }
+ div.pic h1 {
+  font-size: 50px; 
+  font-family: 'Satisfy', cursive;
+  /*text-transform: uppercase;*/
+    color: #000;
+    text-shadow: 1px 2px 2px rgba(0,0,0,.3);
+ }
+ h1.lead, h4.lead {
+  font-size: 28px;
+  color: #000;
+    text-shadow: 1px 2px 2px rgba(0,0,0,.3);
+ }
+
+ h1.lead {
+  font-size: 50px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+ }
+ div.skills {
+   margin-bottom: 25px;
+ }
+ div.skills i, #contact a>i{
+     font-size: 60px;
+     text-shadow: 2px 2px 5px rgba(0,0,0,.3);
+ }
+#contact {
+  margin-bottom: 100px;
+}
+ #contact a {
+    text-decoration: none;
+ }
+ #contact a:hover {
+  text-shadow: 4px 4px 7px #000;
+  animation: elevate .3s ease-in-out forwards;
+ }
+  #facebook i {
+  color: #3b5998;
+ }
+ #github i {
+  color: #000;
+ }
+ #twitter>i {
+  color: #00aced;
+ }
+ #linkedin>i {
+  color: #337ab7;
+ }
+ 
+ 
+
+ div.projects {
+   margin-bottom: 50px;
+   height: 380px;
+   background-color: #fff;
+   padding: 10px;
+   text-align: left;
+   box-shadow: 2px 2px 5px #000;
+ }
+
+div.projects a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+div.projects a h3 {
+  text-shadow: 1px 2px 2px rgba(0,0,0,.3);
+}
+
+div.footer {
+  margin:20px 0;
+  }
+div.footer p {
+  font-size: 18px;
+}  
+
+ div.projects  {
+  position: relative;
+  display: inline-block;
+  
+}
+ .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: red;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+ div.projects:hover .overlay {
+  height: 60%;
+  box-shadow: 2px 2px 5px #000;
+}
+ div.projects p {
+  
+  color: #000;
+  font-size: 14px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}   
+
+.grow:hover {
+  transition: all .2s ease-in-out;
+}
+    
