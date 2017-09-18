@@ -5,7 +5,7 @@ window.onload = function() {
      color: '#000010',
      minDistance: 30,
      sizeVariations: 1,
-     connectParticles: true,
+     connectParticles: false,
 
    });
  };
