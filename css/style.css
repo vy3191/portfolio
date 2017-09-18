@@ -14,13 +14,13 @@ html, body {
 
 }
 
-canvas.background {
+/*canvas.background {
     display:block;
     background: #ffffff;
     position: fixed;
     z-index: -1;
 }
-
+*/
  hr {
   margin-top: 100px;
   margin-bottom: 50px;
