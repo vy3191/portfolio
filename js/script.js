@@ -1,14 +1,14 @@
-window.onload = function() {
-   Particles.init({
-     selector: '.background',
-     maxParticles: 40,
-     color: '#0000FF',
-     minDistance: 60,
-     sizeVariations: 1,
-     connectParticles: true,
+// window.onload = function() {
+//    Particles.init({
+//      selector: '.background',
+//      maxParticles: 40,
+//      color: '#0000FF',
+//      minDistance: 60,
+//      sizeVariations: 1,
+//      connectParticles: true,
 
-   });
- };
+//    });
+//  };
 
  const btn = document.querySelector('.btn');
  const name = document.querySelector('#name');
