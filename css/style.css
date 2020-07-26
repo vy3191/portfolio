@@ -1,7 +1,9 @@
 html, body {
   margin-top:70px;
    padding: 0;
+   background: #f5f5f5;
  }
+ 
  
 
 .background {
@@ -26,9 +28,10 @@ html, body {
 
 .navbar {
   box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
+
 }
  
-#navbar li {
+#navbar li {  
   margin-right: 20px;
 }
 
@@ -46,6 +49,7 @@ Navbar animations
  div.pic img {
    width: 200px;
    height: 200px;
+   margin-top:100px;
  }
  div.pic h1 {
   font-size: 50px; 
@@ -75,15 +79,50 @@ Navbar animations
 
  h1.lead {
   font-size: 50px;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin: 20px auto;
+ }
+
+ h3.job-title {
+   margin-top:-15px;
+ }
+
+ p.summary {
+   width: 70%;
+   margin:28px auto;
+   text-align: center;
+   font-size: 16px;
+   font-family: 'Rubik', sans-serif;
+   text-shadow: 1px 2px 2px rgba(0,0,0,.1);
+ }
+ h1.skills, 
+ h1.contact {
+   margin-top:80px;
+ }
+ h1.contact {
+   margin-bottom: 100px;
+ }
+
+ h1.projects {
+   margin-top: 130px;
  }
  div.skills {
+   margin-top:25px;
    margin-bottom: 25px;
  }
  div.skills i, #contact a>i{
      font-size: 60px;
      text-shadow: 2px 2px 5px rgba(0,0,0,.3);
+ }
+
+ .project-apps {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+ }
+
+ .projects {
+   margin-left: 72px;
  }
 #contact {
   margin-bottom: 100px;
@@ -116,7 +155,7 @@ Navbar animations
    background-color: #fff;
    padding: 10px;
    text-align: left;
-   box-shadow: 2px 2px 5px #000;
+   box-shadow: 2px 2px 2px #000;
  }
 
 div.projects a {
@@ -130,10 +169,18 @@ div.projects a h3 {
 }
 
 div.footer {
-  margin:20px 0;
-  }
+  margin:20px auto;
+  margin-bottom:0px;
+  color:#ffffff;
+  min-height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #14568d;
+}
 div.footer p {
   font-size: 18px;
+  margin-bottom:0px;
 }  
 
  div.projects  {
@@ -146,7 +193,7 @@ div.footer p {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: red;
+  background-color: teal;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -156,8 +203,7 @@ div.footer p {
   height: 60%;
   box-shadow: 2px 2px 5px #000;
 }
- div.projects p {
-  
+ div.projects p {  
   color: #000;
   font-size: 14px;
   position: absolute;
@@ -185,3 +231,19 @@ div.footer p {
   font-weight: bold;
   width: 280px;
 }
+
+/******************
+  Media query 
+******************/  
+@media (min-width: 1200px) {
+  body {
+    width: 1170px;
+    margin: 0 auto;
+    box-shadow: 0px 12px 15px #d4d4d4;
+   }
+   nav {
+     width: 1172px;
+     margin: 0 auto;
+     box-shadow: 0px 12px 15px #d4d4d4;
+   }
+ }

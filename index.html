@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="icon" sizes="64x64" href="favicon/favicon-64.png" type="image/png">
   <script src="https://use.fontawesome.com/cd835b4a25.js"></script>
@@ -14,7 +15,7 @@
   <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
  </head>
 <body id='particles-js'>
-    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top bg-primary">
       <div class="container">
         <div class="navbar-header">
           <button type="button" 
@@ -35,71 +36,73 @@
             <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">Skills</a></li>
-              <li><a href="#portfolio">portfolio</a></li>
+              <li><a href="#portfolio">Projects</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-    <div  class="container pic text-center">
+    <div  id="home" class="container pic text-center">
       <img class='img-circle' src="./images/self.jpg">
       <h1 class='lead'>Venkateshwarlu</h1>
-      <h3>Front-End Web Developer</h3>
+      <h3 class="job-title">Fullstack Developer</h3>
+      <p class="summary">Intrinsically motivated Full Stack Developer with 15 years experience providing customized 
+        instruction to students with varied learning styles. Passionate about building modern 
+        web applications.
+      </p>
     </div><!--end of home/pic container-->
     <hr class="about">
-    <div id='about' class="container"> <!--about div-->
-        <p class='lead text-center'>Front-End Developer from Columbia, SC.</p>
-        <h1 class='lead text-center'>SKILLS</h1>
+    <div id='about' class="container"> <!--skills div-->
+      <h1 class='lead text-center skills'>SKILLS</h1>
       <div class="container"> <!--first cont--> 
         <div class="row skills">
           <div class="col-xs-8  col-xs-offset-2 text-center">
             <div class=row>
-            <div class="col-xs-6 col-md-3">
-              <i class="devicon-html5-plain colored"></i> </br>
-              <span>HTML5</span>              
-            </div>
-            <div class="col-xs-6 col-md-3">
-              <i class="devicon-css3-plain colored"></i></br>
-              <span>CSS3</span>
-            </div>
-            <div class="col-xs-6 col-md-3">
-              <i class="devicon-bootstrap-plain colored"></i></br>
-              <span>Bootsrap</span>
-            </div>
-            <div class="col-xs-6 col-md-3">
-              <i class="devicon-sass-original colored"></i></br>
-              <span>Sass</span>
-            </div>
+              <div class="col-xs-6 col-md-3">
+                <i class="devicon-html5-plain colored"></i> </br>
+                <span>HTML5</span>              
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <i class="devicon-css3-plain colored"></i></br>
+                <span>CSS3</span>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <i class="devicon-bootstrap-plain colored"></i></br>
+                <span>Bootsrap</span>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <i class="devicon-sass-original colored"></i></br>
+                <span>Sass</span>
+              </div>
           </div>
         </div> 
       </div>
-     </div><!--end first cont-->  
-    <div class="container"> <!--second cont--> 
+    </div><!--end first cont-->  
+    <div class="container skills-container"> <!--second cont--> 
         <div class="row skills">
           <div class="col-xs-8  col-xs-offset-2 text-center">
             <div class="row">
               <div class="col-xs-6 col-md-3">
-              <i class="devicon-jquery-plain colored"></i></br>
-              <span>JQuery</span>
+                <i class="devicon-jquery-plain colored"></i></br>
+                <span>JQuery</span>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <i class="devicon-javascript-plain colored"></i></br>
+                <span>Javascript</span>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <i class="devicon-react-original colored"></i></br>
+                <span>React</span>
+              </div>
+              <div class="col-xs-6 col-md-3">
+                <img src="https://img.icons8.com/color/48/000000/redux.png"/></br>
+                <span>Redux</span>
+              </div>              
             </div>
-            <div class="col-xs-6 col-md-3">
-              <i class="devicon-javascript-plain colored"></i></br>
-              <span>Javascript</span>
-            </div>
-            <div class="col-xs-6 col-md-3">
-              <i class="devicon-react-original colored"></i></br>
-              <span>React</span>
-            </div>
-            <div class="col-xs-6 col-md-3">
-              <img src="https://img.icons8.com/color/48/000000/redux.png"/></br>
-              <span>Redux</span>
-            </div>              
-            </div>
-        </div> 
-      </div>
-      </div><!--end second cont-->
-    </div><!--start third div-->
-    <div class="container"> <!--second cont--> 
+          </div> 
+        </div>
+    </div><!--end second cont-->  
+    <div class="container"> <!--Third cont--> 
       <div class="row skills">
         <div class="col-xs-8  col-xs-offset-2 text-center">
           <div class="row">
@@ -125,8 +128,8 @@
     </div><!--end third cont-->
   </div><!--end of about div-->
     <hr> <!--project-->
-    <div id="portfolio" class="container text-center">
-       <h1 class='lead'>PROJECTS</h1>
+    <div id="portfolio" class="container text-center project-apps">
+       <h1 class='lead projects'>PROJECTS</h1>
     <div class="row apps">
       <div id="project1" class='projects col-xs-10 col-xs-offset-1 col-md-3'>
         <a href="https://staging.theniyonapp.com/" target="_blank">
@@ -221,39 +224,36 @@
     </div>
     <hr>
     <div id="contact" class="container text-center">
-      <h1 class="lead">Contact</h1>      
+      <h1 class="lead contact">Contact</h1>      
       <div class="row">
       <div class="col-xs-6  col-md-3">
-        <a id ='facebook' target='_blank' href="#">
+        <a id ='facebook' target='_blank' href="https://www.facebook.com/08venky">
           <i class="fa fa-facebook grow" aria-hidden="true"></i>
         </a>
       </div>
       <div class="col-xs-6  col-md-3">
-         <a id='github' target='_blank' href="">
+         <a id='github' target='_blank' href="https://github.com/vy3191">
           <i class="fa fa-github grow" aria-hidden="true"></i>
          </a>
       </div>
       <div class="col-xs-6  col-md-3">
-         <a id='twitter' target='_blank' href="#">
+         <a id='twitter' target='_blank' href="https://twitter.com/venkatesh23671">
           <i class="fa fa-twitter grow" aria-hidden="true"></i>
          </a>
       </div>
       <div class="col-xs-6  col-md-3">
-         <a id='linkedin' target='_blank' href="#">
+         <a id='linkedin' target='_blank' href="https://www.linkedin.com/in/venkatesh08">
           <i class="fa fa-linkedin grow" aria-hidden="true"></i>
         </a>
       </div>
      </div>
     </div>
-    <hr>
-    <div class="container footer">
-    <div class="row">
-      <div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-4">
-        <p class='text-muted text-center'>venky © 2017. All rights reserved</p>
-      </div>
+    <div class="container footer">        
+      <p class='text-center'>
+        venky © Copyright
+        <script>document.write(new Date().getFullYear())</script>. All rights reserved
+      </p>    
     </div>
-    </div>
-<canvas class="background"></canvas>
 <!--<script src='https://npmcdn.com/particlesjs@2.0.2/dist/particles.min.js'></script>-->
 <script src='js/script.js'></script>
 </body>
