@@ -199,6 +199,11 @@ div.footer p {
   height: 0;
   transition: .5s ease;
 }
+
+.mobile {
+  color:#FFFFFF;
+  font-weight: 400;
+}
  div.projects:hover .overlay {
   height: 60%;
   box-shadow: 2px 2px 5px #000;
